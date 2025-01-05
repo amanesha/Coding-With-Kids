@@ -11,8 +11,8 @@ pursue with some of the options below
 are as follows:
 
 *  **Understand** basic logic
-  * indented item
-* *Use available* options
+   * indented item
+*  *Use available* options
 * ``Apply`` problem solving techniques
 * Hav fun! :)
 
