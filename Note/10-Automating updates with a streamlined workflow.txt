@@ -1,0 +1,18 @@
+...............................
+.......Git and GitHub..........
+...............................
+Git = distributed version control
+- https://git-scm.com
+
+Repository = rep = one code "project"
+GitHub = one git hosting platform
+(gitlab,bitbucket,VSTS etc)
+
+- install git on https://git-smc.com
+- login in GitHub
+- create new Repository
+- name it coding-with-kids
+- copty https://github.com/amanesha/Coding-With-Kids.git
+- in  vs code add .gitignore file
+ and add _build to not track this file
+- in source control intitalize this folder and add commit message

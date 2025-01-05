@@ -1,0 +1,83 @@
+pip install sphinx
+mkdir docs
+sphinx-quickstart
+ls
+-used by sphinx when it creates output
+_build -the end result
+_static
+_templates
+
+
+conf.py-sphinx configuration goes
+
+
+-to use sphinx with separte tool like make
+Makefile
+make.bat
+
+index.rst- which is a restructure text file that we start our text documentation
+- edit the index.rst
+and run
+make html
+
+
+the rules
+- blank lines are very important
+-all paragraphs are separated by blank lines
+-you can add sections by underlining the headers
+    subject of this demo
+    --------------------
+- top level and lowe level headers are separated with --- first or === 
+     welcome to the course
+     =====================
+     this is a subtitle
+     ------------------
+     subject of this demo
+     --------------------
+            or
+     welcome to the course
+     ---------------------
+     this is a subtitle
+     ====================
+     subject of this demo
+     ====================
+- you can use almost any convention you like
+
+     welcome to the course
+     ~~~~~~~~~~~~~~~~~~~~~~
+or ++++ sign for subseciotn
+- for code exapmel we use ::
+e.g
+......blank line..........
+code examples like ::
+   import something
+   x = something.else(a,b)
+   pring(c)
+.......blank line...........
+
+
+- lists can be used -,+,*
+ e.g
+ we wll discuss ::
+ - sphinx
+ - restructured text
+ - and more
+
+- adding hyperlink
+ `linkText <http://www.example.com>`_
+-comment
+ ..comment
+   comment
+
+
+e.g
+      =============
+      A chapter
+      =============
+ 
+      A Section
+     -----------
+
+      A SubSection
+      ~~~~~~~~~~~~
+

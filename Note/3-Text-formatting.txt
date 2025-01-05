@@ -1,0 +1,28 @@
+- replace the hello world
+to 
+
+Welcom to Coding with Kids!
+=================================
+Coding with kids can be a great
+way to not only teach them som skills
+that will help them with their
+own lives, but also create or 
+strenghthen som lasting
+bodnds between you and them.
+
+Throughout your journey you will
+both likely learn new concepts and
+terms that wil expand your horizons and 
+provide hours of enjoyment
+
+- the 3 text decoration available are
+  italic,bold and code words
+
+italic
+*coding with kids*
+*Great*
+bold
+**bonds between you and them**
+
+code word
+``const id=2;``
